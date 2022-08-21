@@ -14,8 +14,8 @@ header {
 header h1 {
     font-family: 'Permanent Marker', cursive;
     color: #FFF;
-    text-shadow: -2px 5px 2px rgb(233 68 68);
     font-size: 36px;
+    text-shadow: -1px 4px 5px #f00;
 }
 .model {
     display: flex;
@@ -26,7 +26,6 @@ header h1 {
 }
 .section-body {
     width: 100%;
-    border: 1px solid red;
 }
 .section-form {
     display: flex;
@@ -34,6 +33,9 @@ header h1 {
     justify-content: center;
     flex-wrap: wrap;
     height: auto;
+    background-image: linear-gradient(rgb(0, 183, 255),#5555b9);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
 }
 .section-form-item {
     margin: 15px;
@@ -44,6 +46,8 @@ header h1 {
     font-family: arial;
     font-weight: 700;
     margin-right: 10px;
+    color: #FFF;
+    text-shadow: -1px 1px 3px #f00;
 }
 .section-form-item input {
     
@@ -61,6 +65,26 @@ header h1 {
     font-family: 'Permanent Marker';
     color: #000;
 }
+.section-tabela {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}
+.section-tabela-head {
+    font-size: 19px;
+    font-family: arial;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #000;
+    text-align: center;
+}
+.section-tabela-campos {
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
 
 
 
